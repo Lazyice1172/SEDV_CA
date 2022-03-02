@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Our Work | Cyber D-Sign Clan</title>
+
+        <meta http-equiv="Content-type" content="text/html;charset=UTF-8">
+        <meta http-equiv="Content-Language" content="en">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="author" content="Christina">
+        <meta name="desciption" content="Cyber D-Sign Clan Website Re-design">
+        <meta name="keywords" content="Design,Cyber,D-Sign,Clan">
+
+        <link rel="stylesheet" href="Assets/CSS/style.css">
+        <link rel="stylesheet" href="Assets/CSS/index.css">
+        <!--Stylesheet that gives me the icon for the colapsable navbar-->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <!--Scripts-->
+        <script src="Assets/Scripts/site.js"></script>
+        <script src="Assets/Scripts/cookie.js"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.js"></script>
+
+    </head>
+    <body onload="draw();">
+        <header>
+            
+            <button style="float: right; margin: 7px;" class="Contact"><a href="contact_us.html">CONTACT</a></button>
+            <div class="topnav" id="NAV_BAR">
+                
+                <a href="index.html" class="inactive">HOME</a>
+                <a href="about_us.html" class="inactive">ABOUT US</a>
+                <a href="our_work.html" class="active">OUR WORK</a>
+                
+                <a href="javascript:void(0);" class="icon" onclick="navbar()">
+                <i class="fa fa-bars"></i>
+                </a>
+            </div>
+
+            <a href="index.html"><h3>CYBER D-SIGN CLAN</h3></a>
+            <br><br><br><br>
+            <div class="center" id="motto">
+                <h1>YOUR DESIGN IS IN GOOD HANDS</h1>
+            </div>
+            
+        </header>
+
+        <div id="content">
+            <button style="padding: 3px 5px 0px 5px;" class="size_toggle" type="button" onclick="increase_font_size();">A</button>
+            <button style="font-size: 1em;" class="size_toggle" type="button" onclick="decrease_font_size();">A</button>
+            
+            <br><br><br><hr><br><br><br>
+            <section class="p_showcase">
+                <img src="Assets/Images/poster.jpg" alt="product1"/>
+                <div class="help">
+                    <h2>Posters</h2>
+                    <p>
+                        We have years of experience in creating memorable logos and branding styles. We start by listening to your story; from there, we design your new logo, branding standards, and style guides. We take our clients to the next level with an easy launch and seamless execution of your new brand in all of your future marketing materials—because, more than just a logo, your brand is in everything you produce                    </p>
+                    <div class="container">
+                        <h3 style="text-align: right;" id="IMG_SIZE">Large</h3>
+                        <p style="text-align: right;" id="IMG_SIZE_DESC" >2400 x 3600 pixels<br>203.2 x 304.8 mm<br>300 DPI PNG</p>
+                        <div class="dropdown" >
+                            <button class="dropbtn"><canvas id="canvas">Your browser does not support canvas.</canvas></button>
+                            <div class="dropdown-content">
+                                <button onclick="change_image_desc(0);">Large</button>
+                                <button onclick="change_image_desc(1);">Medium</button>
+                                <button onclick="change_image_desc(2);">Small</button>
+                            </div>
+                        </div> 
+                    </div>
+                </div>
+                
+            </section>
+            
+            
+            
+        </div>
+        <!--content div end-->
+
+        <!--Central Contact Button-->
+        <div class="center">
+            <button class="Contact"><a href="contact_us.html">CONTACT</a></button>
+        </div>
+
+        <!--FOOTER-->
+        <footer>
+            <div class="footer_div">
+                <div class="footer_box">
+                    <h4>Navigation:</h4>
+                    <a href="index.html" >HOME</a>
+                    <a href="about_us.html" >ABOUT US</a>
+                    <a href="our_work.html" >OUR WORK</a>
+                    <a href="contact_us.html">CONTACT</a><br>
+                    <h4>Email:</h4>
+                    <span><a href="#">info@cyberdesign.ie</a></span><br><br>
+                    
+
+                </div>
+                <div class="footer_box">
+                    
+                    <h4>Opening Hours:</h4>
+                    <span>Monday - Friday<br>9:00am - 5:30pm</span><br><br>
+                    <h4>Phone Number:</h4>
+                    <span>(01) 276 1923</span><br><br>
+                    <h4>Address:</h4>
+                    <span>Bray Town Hall,<br>Main St,<br>Bray,<br>Co. Wicklow,<br>Ireland</span>
+                    
+                </div>
+            </div>
+            <br><p style="text-align: center;">Website by: Christina Vargka 2021</p>
+            <div class="footer_div">
+                <a href="#" class="fa fa-facebook"></a>
+                <a href="#" class="fa fa-twitter"></a>
+                <a href="#" class="fa fa-linkedin"></a>
+                <a href="#" class="fa fa-pinterest"></a>
+            </div>
+                
+        </footer>
+
+    </body>
+</html>
