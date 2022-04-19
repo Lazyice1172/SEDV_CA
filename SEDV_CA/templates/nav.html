@@ -12,28 +12,24 @@
                 <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#about">About</a></li>
                 <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#services">Services</a></li>
                 <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#portfolio">Portfolio</a></li>
-                <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#contact">Contact</a></li>
-                
-
-                <!-- using template tag change_lang -->
-                {% get_language_info_list for LANGUAGES as languages %}
-                <div class="container">
-                    
-                    
-                    <div class="collapse navbar-collapse" id="navbarResponsive">   
-                    <ul class="navbar-nav ml-auto my-2 my-lg-0">
-                        <li class="nav-item">---<li>
-                        {% for language in languages %}
-                        <li class="nav-item"><a class="nav-link js-scroll-trigger" href="{% change_lang language.code %}">
-                            {{ language.name_local }}
-                        </a></li>
-                        {% endfor %}
-                        </ul>
-                    
-                </div>
+                <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#contact">Contact</a></li>      
             </ul>
+        </div>
+        <!-- using template tag change_lang -->
+        {% get_language_info_list for LANGUAGES as languages %}
+        <div class="container">
+            
+            
+            <div class="collapse navbar-collapse" id="navbarResponsive">   
+            <ul class="navbar-nav ml-auto my-2 my-lg-0">
+                <li class="nav-item">---<li>
+                {% for language in languages %}
+                <li class="nav-item"><a class="nav-link js-scroll-trigger" href="{% change_lang language.code %}">
+                    {{ language.name_local }}
+                </a></li>
+                {% endfor %}
+                </ul>
             
         </div>
     </div>
-    
 </nav>
