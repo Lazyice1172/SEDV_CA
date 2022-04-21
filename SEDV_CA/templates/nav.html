@@ -3,6 +3,7 @@
 {% load change_lang %}
 
 
+<<<<<<< HEAD
 <nav class="navbar navbar-expand-lg navbar-light fixed-top py-3" id="mainNav">
     <div class="container">
         <a class="navbar-brand js-scroll-trigger" href="home">Toronto Cupcakes</a>
@@ -22,13 +23,49 @@
             <div class="collapse navbar-collapse" id="navbarResponsive">   
             <ul class="navbar-nav ml-auto my-2 my-lg-0">
                 <li class="nav-item">---<li>
+=======
+<nav class="navbar navbar-expand-lg navbar-dark fixed-top py-3" id="mainNav">
+    <div class="container">
+        <!--logo style="background-color: white"-->
+        <a class="navbar-brand js-scroll-trigger" href="#page-top">Toronto Cupcakes</a>
+        <!--Nav Burger button-->
+        <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+        <!--NavBar-->
+        <div class="collapse navbar-collapse" id="navbarResponsive">
+            <ul class="navbar-nav ml-auto my-2 my-lg-0">
+                <!--Set correct HREF-->
+                <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#about">About</a></li>
+                <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#portfolio">Portfolio</a></li>
+                <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#contact">Contact</a></li>
+            </ul>
+        </div>
+        <!--Change Lang-->
+        <!-- using template tag change_lang -->
+        {% get_language_info_list for LANGUAGES as languages %}
+        <div class="container">
+            <div class="collapse navbar-collapse" id="navbarResponsive">   
+            <ul class="navbar-nav ml-auto my-2 my-lg-0">
+                <li class="nav-item"><li>
+>>>>>>> b3c3a7d2a5610c361d25c405bef295097bec7b06
                 {% for language in languages %}
                 <li class="nav-item"><a class="nav-link js-scroll-trigger" href="{% change_lang language.code %}">
                     {{ language.name_local }}
                 </a></li>
                 {% endfor %}
+<<<<<<< HEAD
                 </ul>
             
+=======
+            </ul>
+            </div>
+        </div>
+
+        <div class="container">
+            <div class="collapse navbar-collapse ml-5" id="navbarResponsive">
+                <!--Set correct HREF-->
+                <a class="nav-item" href="#"><i class="fas fa-2x ml-4 fa-shopping-cart"></i></a>
+            </div>
+>>>>>>> b3c3a7d2a5610c361d25c405bef295097bec7b06
         </div>
     </div>
 </nav>
