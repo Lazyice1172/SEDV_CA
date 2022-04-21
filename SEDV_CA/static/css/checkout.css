@@ -40,3 +40,24 @@
         height: auto;
     }
 }
+
+a {
+    color: grey;
+}
+
+a.cupcake-link {
+    color: black;
+    display: block;
+    padding: 0.5rem 1rem;
+}
+
+.cupacke-link:hover,
+.cupcake-link:focus {
+    text-decoration: none;
+}
+
+.cupcake-link.disabled {
+    color: #6c757d;
+    pointer-events: none;
+    cursor: default;
+}
