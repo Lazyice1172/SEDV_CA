@@ -5,7 +5,7 @@
 <!DOCTYPE html>
 <html lang="en">
 {% include "header.html"%}
-<link href="{% static 'css/check-out.css' %}" rel="stylesheet" />
+<link href="{% static 'css/checkout.css' %}" rel="stylesheet" />
 </body>
 </html>
     <body id="page-top">
@@ -13,9 +13,29 @@
         {% include "nav.html"%}
 
         <!--Body-->
-        <div class="">
+        <div class="store">
+            <h2 class="store-title"><a href="order">Order Cupcake Online</a> > Fruit</h2>
 
+            <!--Shop-item-->
+            <div class="cover">
+                <div class="cupcake-box">
+                    <a href="cupcake"><img class="item-img" src="{% static 'assets/img/pexels-vojtech-okenka-1055270.jpg'%}"></a>
+                    <div class="text-box">
+                        <h2>Fruit </h2>
+                        <p>cupcake classic! Double chocolate sponge covered in a smooth and decadent chocolate icing.</p>
+                        <ul>
+                            <p>Gift Box of 12 cupcakes</p>
+                            <p>Delivery cost: €10 per order</p>
+                        </ul>
+                        <br>
+                        <h2>$XX.XX</h2>
+                    </div>
+                </div>
+            </div>
         </div>
+
+        <br>
+
 
 
 

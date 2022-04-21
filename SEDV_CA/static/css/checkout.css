@@ -1,0 +1,42 @@
+.store {
+    margin-top: 50px;
+    padding: 100px;
+}
+
+.cover {
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+}
+
+.cupcake-box {
+    margin: 10px;
+    width: 100%;
+    height: 500px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.item-img {
+    padding-left: 50px;
+    height: 500px;
+    display: flex;
+    float: right;
+}
+
+.text-box {
+    padding: 30px;
+    text-align: justify;
+}
+
+@media (max-width: 650px) {
+    .store {
+        padding: 50px;
+    }
+    .item-img {
+        padding: 0;
+        width: 100%;
+        height: auto;
+    }
+}

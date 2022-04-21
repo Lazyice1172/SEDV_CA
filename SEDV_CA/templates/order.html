@@ -14,25 +14,50 @@
 
         <!--Body-->
         <div class="store">
-            <h2 class="store-title">Flavours</h2>
+            <h2 class="store-title">{% trans "Flavours" %}</h2>
 
             <!--Shop-item-->
             <div class="cover">
-                <div class="box">
+                <div class="cupcake-box">
                     
                     <a href="cupcake"><img class="item-img" src="{% static 'assets/img/pexels-vojtech-okenka-1055270.jpg'%}"></a>
-                    <h2>Fruit Cupcake</h2>
-                    <p>Price : $XX.XX</p>
+                    <h2>{% trans "Fruit" %}</h2>
+                    <p>{% trans "Price" %} : $XX.XX</p>
                 </div>
-                <div class="box">
-                    <img class="item-img"  src="{% static 'assets/img/pexels-vojtech-okenka-1055271.jpg'%}">
-                    <h2>Cream Cupcake</h2>
-                    <p>Price : $XX.XX</p>
+                <div class="cupcake-box">
+                    <a href="cupcake"><img class="item-img"  src="{% static 'assets/img/pexels-vojtech-okenka-1055271.jpg'%}"></a>
+                    <h2>{% trans "Cream Cupcake" %}</h2>
+                    <p>{% trans "Price" %} : $XX.XX</p>
                 </div>
-                <div class="box">
-                    <img class="item-img" src="{% static 'assets/img/pexels-vojtech-okenka-1055272.jpg'%}">
-                    <h2>Chocolate Cupcake</h2>
-                    <p>Price : $ XX.XX</p>
+                <div class="cupcake-box">
+                    <a href="cupcake"><img class="item-img" src="{% static 'assets/img/pexels-vojtech-okenka-1055272.jpg'%}"></a>
+                    <h2>{% trans "Chocolate" %}</h2>
+                    <p>{% trans "Price" %} : $ XX.XX</p>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="store">
+            <h2 class="store-title">{% trans "Package / Deals" %}</h2>
+
+            <!--Shop-item-->
+            <div class="cover">
+                <div class="cupcake-box">
+                    
+                    <a href="cupcake"><img class="item-img" src="{% static 'assets/img/pexels-ferawan-8874015.jpg'%}"></a>
+                    <h2>{% trans "Fruit" %}</h2>
+                    <p>{% trans "Price" %} : $XX.XX</p>
+                </div>
+                <div class="cupcake-box">
+                    <a href="cupcake"><img class="item-img"  src="{% static 'assets/img/pexels-ferawan-8874017.jpg'%}"></a>
+                    <h2>{% trans "Cream Cupcake" %}</h2>
+                    <p>{% trans "Price" %} : $XX.XX</p>
+                </div>
+                <div class="cupcake-box">
+                    <a href="cupcake"><img class="item-img" src="{% static 'assets/img/pexels-olga-kalinina-7504173.jpg'%}"></a>
+                    <h2>{% trans "Chocolate" %}</h2>
+                    <p>{% trans "Price" %} : $ XX.XX</p>
                 </div>
             </div>
         </div>
@@ -44,7 +69,7 @@
             <div class="container">
                 <div class="row justify-content-center">
                     <div class="col-lg-8 text-center">
-                        <h2 class="mt-0">Contact Us!</h2>
+                        <h2 class="mt-0">{% trans "Contact Us!" %}</h2>
                         <hr class="divider my-4" />
                         <p class="text-muted mb-5"></p>
                     </div>

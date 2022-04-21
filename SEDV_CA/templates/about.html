@@ -16,12 +16,12 @@
             <div class="container h-100">
                 <div class="row h-100 align-items-center justify-content-center text-center">
                     <div class="col-lg-10 align-self-end">
-                        <h1 class="text-uppercase text-white font-weight-bold" >{% trans "About"%}   Toronto Cupcake</h1>
+                        <h1 class="text-uppercase text-white font-weight-bold" >{% trans "About" %}   Toronto Cupcake</h1>
                         <hr class="divider my-4" />
                     </div>
                     <div class="col-lg-8 align-self-baseline">
                         <p class="text-white-75 font-weight-light mb-5" >{% trans "We are driven by loving what we do and what we make everyday. We get to use the finest ingredients to make what we believe are the tastiest treats around. And.. we love the idea that our treats are making people happy every time they bite into one. How much fun is that!"%}</p>
-                        <a class="btn btn-primary btn-xl js-scroll-trigger" href="#about">{% trans "Find Out More"%}</a>
+                        <a class="btn btn-primary btn-xl js-scroll-trigger" href="#about">{% trans "Find Out More" %}</a>
                     </div>
                 </div>
             </div>
@@ -33,19 +33,19 @@
             <div class="box1">
                 <div class="about-text">
                 <h2>{% trans "Birthday"%}</h2>
-                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                <p>{% trans "Create a birthday worth remembering with our special birthday cupcakes." %}</p>
                 </div>
             </div>
             <div class="box2">
                 <div class="about-text">
                     <h2>{% trans "Wedding"%}</h2>
-                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                    <p>{% trans "Our wedding cupcakes will be sure to assist you in having the most special day of your life." %}</p>
                     </div>
             </div>
             <div class="box3">
                 <div class="about-text">
                     <h2>{% trans "Holiday"%}</h2>
-                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                    <p>{% trans "Our holiday-themed cupcakes are sure to boost any occassion." %}</p>
                     </div>
             </div>
             
@@ -53,20 +53,12 @@
 
 
         <!-- Order-->
-        <header class="Order">
-            <div class="container h-100">
-                <div class="row h-100 align-items-center justify-content-center text-center">
-                    <div class="col-lg-10 align-self-end">
-                        <h1 class="text-uppercase text-white font-weight-bold">{% trans "Your Favorite Cupcakes"%}</h1>
-                        <hr class="divider my-4" />
-                    </div>
-                    <div class="col-lg-8 align-self-baseline">
-                        <p class="text-white-75 font-weight-light mb-5">{% trans "Start Order it now!"%}</p>
-                        <a class="btn btn-primary btn-xl js-scroll-trigger" href="order">{% trans "Order"%}</a>
-                    </div>
-                </div>
+        <section class="page-section bg-dark text-white">
+            <div class="container text-center">
+                <h2 class="mb-4">{% trans "Your Favourite Cupcake!" %}</h2>
+                <a class="btn btn-light btn-xl" href="order">{% trans "Order Now!" %}</a>
             </div>
-        </header>
+        </section>
 
 
 
@@ -75,7 +67,7 @@
             <div class="container">
                 <div class="row justify-content-center">
                     <div class="col-lg-8 text-center">
-                        <h2 class="mt-0">Contact Us!</h2>
+                        <h2 class="mt-0">{% trans "Contact Us!" %}</h2>
                         <hr class="divider my-4" />
                         <p class="text-muted mb-5"></p>
                     </div>

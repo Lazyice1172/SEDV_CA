@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-04-18 13:55+0100\n"
-"PO-Revision-Date: 2022-04-18 13:58+0100\n"
+"POT-Creation-Date: 2022-04-21 15:12+0100\n"
+"PO-Revision-Date: 2022-04-21 15:16+0100\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "Language: fr\n"
@@ -30,10 +30,100 @@ msgstr "Français"
 msgid "English"
 msgstr "Anglais"
 
-#: .\SEDV_CA\settings.py:135
-msgid "German"
-msgstr "German"
+#: .\SEDV_CA\templates\about.html:19
+msgid "About"
+msgstr "À propos"
 
-#: .\SEDV_CA\templates\index.html:45
+#: .\SEDV_CA\templates\about.html:23
+msgid ""
+"We are driven by loving what we do and what we make everyday. We get to use "
+"the finest ingredients to make what we believe are the tastiest treats "
+"around. And.. we love the idea that our treats are making people happy every "
+"time they bite into one. How much fun is that!"
+msgstr ""
+"Nous sommes motivés par l’amour de ce que nous faisons et de ce que nous "
+"faisons tous les jours. Nous pouvons utiliser les meilleurs ingrédients pour "
+"faire ce que nous croyons être les friandises les plus savoureuses qui "
+"soient. Et.. nous aimons l’idée que nos friandises rendent les gens heureux "
+"chaque fois qu’ils mordent dans l’un d’eux. Comme c’est amusant!"
+
+#: .\SEDV_CA\templates\about.html:24
+msgid "Find Out More"
+msgstr "En savoir plus"
+
+#: .\SEDV_CA\templates\about.html:35
+msgid "Birthday"
+msgstr "Date de naissance"
+
+#: .\SEDV_CA\templates\about.html:36
+msgid "Create a birthday worth remembering with our special birthday cupcakes."
+msgstr ""
+"Créez un anniversaire qui vaut la peine d’être rappelé avec nos cupcakes "
+"d’anniversaire spéciaux."
+
+#: .\SEDV_CA\templates\about.html:41
+msgid "Wedding"
+msgstr "Mariage"
+
+#: .\SEDV_CA\templates\about.html:42
+msgid ""
+"Our wedding cupcakes will be sure to assist you in having the most special "
+"day of your life."
+msgstr ""
+"Nos cupcakes de mariage ne manqueront pas de vous aider à passer le jour le "
+"plus spécial de votre vie."
+
+#: .\SEDV_CA\templates\about.html:47
+msgid "Holiday"
+msgstr "Vacances"
+
+#: .\SEDV_CA\templates\about.html:48
+msgid "Our holiday-themed cupcakes are sure to boost any occassion."
+msgstr ""
+"Nos cupcakes sur le thème des fêtes rehausseront à coup sûr toutes les "
+"occasions."
+
+#: .\SEDV_CA\templates\about.html:58
+msgid "Your Favourite Cupcake!"
+msgstr "Votre petit gâteau préféré !"
+
+#: .\SEDV_CA\templates\about.html:59
+msgid "Order Now!"
+msgstr "Commandez maintenant!"
+
+#: .\SEDV_CA\templates\about.html:70 .\SEDV_CA\templates\order.html:72
+msgid "Contact Us!"
+msgstr "Nous contacter!"
+
+#: .\SEDV_CA\templates\index.html:18
 msgid "Your Favorite Source of Free Bootstrap Themes"
 msgstr "Votre source préférée de thèmes Bootstrap gratuits"
+
+#: .\SEDV_CA\templates\order.html:17
+msgid "Flavours"
+msgstr "Les saveurs"
+
+#: .\SEDV_CA\templates\order.html:24 .\SEDV_CA\templates\order.html:49
+msgid "Fruit"
+msgstr "Fruit"
+
+#: .\SEDV_CA\templates\order.html:25 .\SEDV_CA\templates\order.html:30
+#: .\SEDV_CA\templates\order.html:35 .\SEDV_CA\templates\order.html:50
+#: .\SEDV_CA\templates\order.html:55 .\SEDV_CA\templates\order.html:60
+msgid "Price"
+msgstr "Prix"
+
+#: .\SEDV_CA\templates\order.html:29 .\SEDV_CA\templates\order.html:54
+msgid "Cream Cupcake"
+msgstr "Petit gâteau à la crème"
+
+#: .\SEDV_CA\templates\order.html:34 .\SEDV_CA\templates\order.html:59
+msgid "Chocolate"
+msgstr "Chocolat"
+
+#: .\SEDV_CA\templates\order.html:42
+msgid "Package / Deals"
+msgstr "Forfait / Offres"
+
+#~ msgid "German"
+#~ msgstr "German"
