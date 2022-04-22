@@ -9,3 +9,15 @@ def testlang(request):
 
 def index(request):
     return render(request, "index.html")
+
+
+def about(request):
+    return render(request, "about.html")
+
+
+def order(request):
+    return render(request, "order.html")
+
+
+def cupcake(request):
+    return render(request, "cupcake.html")

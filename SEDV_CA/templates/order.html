@@ -1,0 +1,73 @@
+{% load i18n %}
+{% load static %}
+{% load change_lang %}
+
+<!DOCTYPE html>
+<html lang="en">
+{% include "header.html"%}
+<link href="{% static 'css/order.css' %}" rel="stylesheet" />
+</body>
+</html>
+    <body id="page-top">
+        <!-- Navigation-->
+        {% include "nav.html"%}
+
+        <!--Body-->
+        <div class="store">
+            <h2 class="store-title">{% trans "Flavours" %}</h2>
+
+            <!--Shop-item-->
+            <div class="cover">
+                <div class="cupcake-box">
+                    
+                    <a href="cupcake"><img class="item-img" src="{% static 'assets/img/pexels-vojtech-okenka-1055270.jpg'%}"></a>
+                    <h2>{% trans "Fruit" %}</h2>
+                    <p>{% trans "Price" %} : $XX.XX</p>
+                </div>
+                <div class="cupcake-box">
+                    <a href="cupcake"><img class="item-img"  src="{% static 'assets/img/pexels-vojtech-okenka-1055271.jpg'%}"></a>
+                    <h2>{% trans "Cream Cupcake" %}</h2>
+                    <p>{% trans "Price" %} : $XX.XX</p>
+                </div>
+                <div class="cupcake-box">
+                    <a href="cupcake"><img class="item-img" src="{% static 'assets/img/pexels-vojtech-okenka-1055272.jpg'%}"></a>
+                    <h2>{% trans "Chocolate" %}</h2>
+                    <p>{% trans "Price" %} : $ XX.XX</p>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="store">
+            <h2 class="store-title">{% trans "Package / Deals" %}</h2>
+
+            <!--Shop-item-->
+            <div class="cover">
+                <div class="cupcake-box">
+                    
+                    <a href="cupcake"><img class="item-img" src="{% static 'assets/img/pexels-ferawan-8874015.jpg'%}"></a>
+                    <h2>{% trans "Fruit" %}</h2>
+                    <p>{% trans "Price" %} : $XX.XX</p>
+                </div>
+                <div class="cupcake-box">
+                    <a href="cupcake"><img class="item-img"  src="{% static 'assets/img/pexels-ferawan-8874017.jpg'%}"></a>
+                    <h2>{% trans "Cream Cupcake" %}</h2>
+                    <p>{% trans "Price" %} : $XX.XX</p>
+                </div>
+                <div class="cupcake-box">
+                    <a href="cupcake"><img class="item-img" src="{% static 'assets/img/pexels-olga-kalinina-7504173.jpg'%}"></a>
+                    <h2>{% trans "Chocolate" %}</h2>
+                    <p>{% trans "Price" %} : $ XX.XX</p>
+                </div>
+            </div>
+        </div>
+
+
+
+        
+        <!-- Footer-->
+        {% include "Footer.html" %}
+        <!-- Bootstrap core JS-->
+        {% include "BS_Code.html" %}
+    </body>
+</html>
