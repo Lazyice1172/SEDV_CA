@@ -11,34 +11,30 @@
         <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
         <!--NavBar-->
         <div class="collapse navbar-collapse" id="navbarResponsive">
-            <ul class="navbar-nav ml-auto my-2 my-lg-0">
+            <ul class="navbar-nav ml-auto my-2 my-lg-0 text-nowrap">
                 <!--Set correct HREF-->
-                <li class="nav-item"><a class="nav-link js-scroll-trigger" href="about">About</a></li>
-                <li class="nav-item"><a class="nav-link js-scroll-trigger" href="order">Store</a></li>
-                <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#contact">Contact</a></li>
+                <li class="nav-item"><a class="nav-link js-scroll-trigger" href="about">{% trans 'About' %}</a></li>
+                <li class="nav-item"><a class="nav-link js-scroll-trigger" href="order">{% trans 'Store' %}</a></li>
+                <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#contact">{% trans 'Contact' %}</a></li>
             </ul>
-        </div>
-        <!--Change Lang-->
-        <!-- using template tag change_lang -->
-        {% get_language_info_list for LANGUAGES as languages %}
-        <div class="container">
-            <div class="collapse navbar-collapse" id="navbarResponsive">   
-            <ul class="navbar-nav ml-auto my-2 my-lg-0">
-                <li class="nav-item"><li>
-                {% for language in languages %}
-                <li class="nav-item"><a class="nav-link js-scroll-trigger" href="{% change_lang language.code %}">
-                    {{ language.name_local }}
-                </a></li>
-                {% endfor %}
-            </ul>
+            <!--Change Lang-->
+            <!-- using template tag change_lang -->
+            {% get_language_info_list for LANGUAGES as languages %}
+            <div class="container ml-auto my-2 my-lg-0">
+                <ul class="navbar-nav">
+                    <li class="nav-item"><li>
+                    {% for language in languages %}
+                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="{% change_lang language.code %}">
+                        {{ language.name_local }}
+                    </a></li>
+                    {% endfor %}
+                </ul>
             </div>
-        </div>
-
-        <div class="container">
-            <div class="collapse navbar-collapse ml-5" id="navbarResponsive">
+            <div class="container">
                 <!--Set correct HREF-->
                 <a class="nav-item" href="order"><i class="fas fa-2x ml-4 fa-shopping-cart"></i></a>
             </div>
         </div>
+
     </div>
 </nav>

@@ -5,7 +5,7 @@
 <!DOCTYPE html>
 <html lang="en">
 {% include "header.html"%}
-<title>Toronto Cupcakes > Product Details</title>
+<title>Toronto Cupcakes > {% trans 'Product Details' %}</title>
 <link href="{% static 'css/checkout.css' %}" rel="stylesheet" />
 </body>
 </html>
@@ -15,23 +15,23 @@
 
         <!--Body-->
         <div class="mt-5 p-5">
-            <h2 class="text-muted"><a class="cupcake-link text-secondary" href="order">Order Cupcake Online</a> > Fruit</h2>
+            <h2 class="text-muted"><a class="cupcake-link text-secondary" href="order">{% trans 'Order Cupcake Online' %}</a> > Fruit</h2>
 
             <!--Shop-item-->
             <div class="w-100">
                 <div class="row justify-content-center">
                     <div class="col-lg-6 col-md-12 col-12 p-2">
-                        <h2 class="text-secondary font-weight-bold">Fruit </h2>
-                        <p class="text-secondary" id="Image">cupcake classic! Double chocolate sponge covered in a smooth and decadent chocolate icing.</p>
+                        <h2 class="text-secondary font-weight-bold">{% trans 'Fruit' %}</h2>
+                        <p class="text-secondary">{% trans 'A cupcake classic! Double chocolate sponge covered in a smooth and decadent chocolate icing.' %}</p>
                         <ul class="font-weight-bold text-primary">
-                            <p>Gift Box of 12 cupcakes</p>
-                            <p>Delivery cost: $10 per order</p>
+                            <p>{% trans 'Gift Box of 12 cupcakes' %}</p>
+                            <p>{% trans 'Delivery cost: $10 per order' %}</p>
                         </ul>
                         <br>
                         <h2>$XX.XX</h2>
                         <div class="cupcake">
                             <input type="number" value="1" min ="1" max="99">
-                            <button class="btn btn-secondary btn-l">Add to Cart</button>
+                            <button class="btn btn-secondary btn-l">{% trans 'Add to Cart' %}</button>
                         </div>
 
 

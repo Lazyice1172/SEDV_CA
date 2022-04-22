@@ -5,7 +5,7 @@
 <!DOCTYPE html>
 <html lang="en">
 {% include "header.html"%}
-<title>Toronto Cupcakes > Store</title>
+<title>Toronto Cupcakes > {% trans 'Store' %}</title>
 <link href="{% static 'css/order.css' %}" rel="stylesheet" />
 </body>
 </html>
@@ -21,17 +21,17 @@
             <div class="cover">
                 <div class="cupcake-box">
                     
-                    <a href="cupcake"><img class="item-img" src="{% static 'assets/img/pexels-vojtech-okenka-1055270.jpg'%}"></a>
+                    <a href="cupcake"><img class="item-img" src="{% static 'assets/img/pexels-vojtech-okenka-1055270.jpg' %}"></a>
                     <h2>{% trans "Fruit" %}</h2>
                     <p>{% trans "Price" %} : $XX.XX</p>
                 </div>
                 <div class="cupcake-box">
-                    <a href="cupcake"><img class="item-img"  src="{% static 'assets/img/pexels-vojtech-okenka-1055271.jpg'%}"></a>
+                    <a href="cupcake"><img class="item-img"  src="{% static 'assets/img/pexels-vojtech-okenka-1055271.jpg' %}"></a>
                     <h2>{% trans "Cream Cupcake" %}</h2>
                     <p>{% trans "Price" %} : $XX.XX</p>
                 </div>
                 <div class="cupcake-box">
-                    <a href="cupcake"><img class="item-img" src="{% static 'assets/img/pexels-vojtech-okenka-1055272.jpg'%}"></a>
+                    <a href="cupcake"><img class="item-img" src="{% static 'assets/img/pexels-vojtech-okenka-1055272.jpg' %}"></a>
                     <h2>{% trans "Chocolate" %}</h2>
                     <p>{% trans "Price" %} : $ XX.XX</p>
                 </div>
@@ -63,9 +63,6 @@
             </div>
         </div>
 
-
-
-        
         <!-- Footer-->
         {% include "Footer.html" %}
         <!-- Bootstrap core JS-->
