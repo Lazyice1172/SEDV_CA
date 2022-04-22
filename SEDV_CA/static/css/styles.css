@@ -8083,6 +8083,10 @@ button.bg-dark:focus {
     min-height: 50vh !important;
 }
 
+.min-vh-15{
+    min-height: 15vh !important;
+}
+
 .vw-100 {
     width: 100vw !important;
 }
@@ -10331,21 +10335,22 @@ hr.light {
     #mainNav .navbar-nav .nav-item:last-child .nav-link {
         padding-right: 0;
     }
+    /*NOTE responds to JS*/
     #mainNav.navbar-scrolled {
         box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
-        background-color: #fff;
+        background-color: #5f3e1d;
     }
     #mainNav.navbar-scrolled .navbar-brand {
-        color: #212529;
+        color: rgba(255,255,255,0.75);
     }
     #mainNav.navbar-scrolled .navbar-brand:hover {
-        color: #f4623a;
+        color: white;
     }
     #mainNav.navbar-scrolled .navbar-nav .nav-item .nav-link {
-        color: #212529;
+        color: rgba(255,255,255,0.75);
     }
     #mainNav.navbar-scrolled .navbar-nav .nav-item .nav-link:hover {
-        color: #f4623a;
+        color: white;
     }
 }
 
@@ -10472,6 +10477,12 @@ header.masthead h1 {
     background-size: cover;
 }
 
-.white-bg-50 {
-    background-color: rgba(255, 255, 255, 0.5);
+.white-bg-50{
+    background-color: rgba(255,255,255,0.5);
+}
+.white-bg-75{
+    background-color: rgba(255,255,255,0.75);
+}
+.white-bg-100{
+    background-color: white;
 }
