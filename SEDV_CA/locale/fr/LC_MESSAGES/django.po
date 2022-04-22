@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-04-21 15:12+0100\n"
-"PO-Revision-Date: 2022-04-21 15:16+0100\n"
+"POT-Creation-Date: 2022-04-22 13:34+0100\n"
+"PO-Revision-Date: 2022-04-22 13:36+0100\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "Language: fr\n"
@@ -30,7 +30,7 @@ msgstr "Français"
 msgid "English"
 msgstr "Anglais"
 
-#: .\SEDV_CA\templates\about.html:19
+#: .\SEDV_CA\templates\about.html:19 .\SEDV_CA\templates\nav.html:16
 msgid "About"
 msgstr "À propos"
 
@@ -87,25 +87,135 @@ msgstr ""
 msgid "Your Favourite Cupcake!"
 msgstr "Votre petit gâteau préféré !"
 
-#: .\SEDV_CA\templates\about.html:59
+#: .\SEDV_CA\templates\about.html:59 .\SEDV_CA\templates\index.html:24
+#: .\SEDV_CA\templates\index.html:84
 msgid "Order Now!"
 msgstr "Commandez maintenant!"
 
-#: .\SEDV_CA\templates\about.html:70 .\SEDV_CA\templates\order.html:72
+#: .\SEDV_CA\templates\cupcake.html:17
+msgid "Order Cupcake Online"
+msgstr "Commander Cupcake en ligne"
+
+#: .\SEDV_CA\templates\cupcake.html:24 .\SEDV_CA\templates\order.html:24
+#: .\SEDV_CA\templates\order.html:49
+msgid "Fruit"
+msgstr "Fruit"
+
+#: .\SEDV_CA\templates\cupcake.html:25
+msgid ""
+"cupcake classic! Double chocolate sponge covered in a smooth and decadent "
+"chocolate icing."
+msgstr ""
+"cupcake classique! Double éponge au chocolat recouverte d’un glaçage au "
+"chocolat lisse et décadent."
+
+#: .\SEDV_CA\templates\cupcake.html:27
+msgid "Gift Box of 12 cupcakes"
+msgstr "Coffret cadeau de 12 cupcakes"
+
+#: .\SEDV_CA\templates\cupcake.html:28
+msgid "Delivery cost: €10 per order"
+msgstr "Frais de livraison : 10 € par commande"
+
+#: .\SEDV_CA\templates\footer.html:12
 msgid "Contact Us!"
 msgstr "Nous contacter!"
 
-#: .\SEDV_CA\templates\index.html:18
-msgid "Your Favorite Source of Free Bootstrap Themes"
-msgstr "Votre source préférée de thèmes Bootstrap gratuits"
+#: .\SEDV_CA\templates\index.html:19
+msgid "Easter Cupcake"
+msgstr "Cupcake de Pâques"
+
+#: .\SEDV_CA\templates\index.html:23
+msgid ""
+"Treat yourself with our new Easter cupcakes. Sweet and fragrant filled with "
+"seasonal fruits and berries!"
+msgstr ""
+"Faites-vous plaisir avec nos nouveaux cupcakes de Pâques. Sucré et parfumé "
+"rempli de fruits et de baies de saison!"
+
+#: .\SEDV_CA\templates\index.html:34
+msgid "Plan your events with us!"
+msgstr "Planifiez vos événements avec nous!"
+
+#: .\SEDV_CA\templates\index.html:36
+msgid ""
+"With years of experience baking and decorating cupcakes, we will ensure that "
+"your celebrations become special!"
+msgstr ""
+"Avec des années d’expérience dans la cuisson et la décoration de cupcakes, "
+"nous veillerons à ce que vos célébrations deviennent spéciales!"
+
+#: .\SEDV_CA\templates\index.html:37
+msgid "Get Quote"
+msgstr "Obtenir un devis"
+
+#: .\SEDV_CA\templates\index.html:46
+msgid "Need Inspiration?"
+msgstr "Besoin d’inspiration ?"
+
+#: .\SEDV_CA\templates\index.html:48
+msgid ""
+"We are ready to hear you out and provide you with lovely ideas. We love "
+"planning with our customers and making each and every event unique. Here are "
+"a couple bundles we offer!"
+msgstr ""
+"Nous sommes prêts à vous écouter et à vous donner de belles idées. Nous "
+"aimons planifier avec nos clients et rendre chaque événement unique. Voici "
+"quelques offres groupées que nous proposons !"
+
+#: .\SEDV_CA\templates\index.html:55
+msgid "Holidays"
+msgstr "Vacances"
+
+#: .\SEDV_CA\templates\index.html:56
+msgid ""
+"Holiday rush? No need to worry! We remain open, providing you with delicious "
+"cupcakes when you need them most!"
+msgstr ""
+"Holiday rush? No need to worry! We remain open, providing you with delicious "
+"cupcakes when you need them most!"
+
+#: .\SEDV_CA\templates\index.html:63
+msgid "Weddings"
+msgstr "Mariage"
+
+#: .\SEDV_CA\templates\index.html:64
+msgid ""
+"Why not choose us to cater your wedding with our adorable tux-and-dress "
+"cupcakes?"
+msgstr ""
+"Pourquoi ne pas nous choisir comme traiteur pour votre mariage avec nos "
+"adorables cupcakes en forme de smoking et de robe ?"
+
+#: .\SEDV_CA\templates\index.html:65 .\SEDV_CA\templates\index.html:73
+msgid "View"
+msgstr "Voir"
+
+#: .\SEDV_CA\templates\index.html:71
+msgid "Birthdays"
+msgstr "Date de naissance"
+
+#: .\SEDV_CA\templates\index.html:72
+msgid "Big or small, we are able to make any birthday feel spacial!"
+msgstr ""
+"Qu'il soit petit ou grand, nous sommes capables de faire en sorte que "
+"n'importe quel anniversaire se déroule dans l'espace !"
+
+#: .\SEDV_CA\templates\index.html:83
+msgid "Looking for a treat?"
+msgstr "Vous cherchez une friandise ?"
+
+#: .\SEDV_CA\templates\nav.html:17
+msgid "Store"
+msgstr "Magasin"
+
+#: .\SEDV_CA\templates\nav.html:18
+msgid "Contact"
+msgstr "Contact"
 
 #: .\SEDV_CA\templates\order.html:17
 msgid "Flavours"
 msgstr "Les saveurs"
-
-#: .\SEDV_CA\templates\order.html:24 .\SEDV_CA\templates\order.html:49
-msgid "Fruit"
-msgstr "Fruit"
 
 #: .\SEDV_CA\templates\order.html:25 .\SEDV_CA\templates\order.html:30
 #: .\SEDV_CA\templates\order.html:35 .\SEDV_CA\templates\order.html:50
@@ -124,6 +234,9 @@ msgstr "Chocolat"
 #: .\SEDV_CA\templates\order.html:42
 msgid "Package / Deals"
 msgstr "Forfait / Offres"
+
+#~ msgid "Your Favorite Source of Free Bootstrap Themes"
+#~ msgstr "Votre source préférée de thèmes Bootstrap gratuits"
 
 #~ msgid "German"
 #~ msgstr "German"
