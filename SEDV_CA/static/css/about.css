@@ -127,14 +127,6 @@ header.Order h1 {
     padding-right: 10px;
 }
 
-.text-white {
-    color: black !important;
-}
-
-.text-white-75 {
-    color: black !important;
-}
-
 .bg-dark {
     background-image: url("../assets/img/pexels-photo-959079.jpeg");
     background-repeat: no-repeat;

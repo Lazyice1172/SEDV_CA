@@ -5,6 +5,7 @@
 <!DOCTYPE html>
 <html lang="en">
 {% include "header.html"%}
+<title>Toronto Cupcakes > About</title>
 <link href="{% static 'css/about.css' %}" rel="stylesheet" />
 </body>
 </html>
@@ -16,12 +17,12 @@
             <div class="container h-100">
                 <div class="row h-100 align-items-center justify-content-center text-center">
                     <div class="col-lg-10 align-self-end">
-                        <h1 class="text-uppercase text-white font-weight-bold" >{% trans "About" %}   Toronto Cupcake</h1>
+                        <h1 class="text-uppercase text-primary font-weight-bold" >{% trans "About" %}   Toronto Cupcake</h1>
                         <hr class="divider my-4" />
                     </div>
                     <div class="col-lg-8 align-self-baseline">
                         <p class="text-white-75 font-weight-light mb-5" >{% trans "We are driven by loving what we do and what we make everyday. We get to use the finest ingredients to make what we believe are the tastiest treats around. And.. we love the idea that our treats are making people happy every time they bite into one. How much fun is that!"%}</p>
-                        <a class="btn btn-primary btn-xl js-scroll-trigger" href="#about">{% trans "Find Out More" %}</a>
+                        <a class="btn btn-secondary btn-xl js-scroll-trigger" href="#about">{% trans "Find Out More" %}</a>
                     </div>
                 </div>
             </div>
@@ -32,20 +33,23 @@
         <div class="cover" id="about">
             <div class="box1">
                 <div class="about-text">
-                <h2>{% trans "Birthday"%}</h2>
-                <p>{% trans "Create a birthday worth remembering with our special birthday cupcakes." %}</p>
+                    <h2 class="font-weight-bold text-secondary">{% trans "Birthday"%}</h2>
+                    <hr class="divider my-4" />
+                    <p class="font-weight-bold text-secondary">{% trans "Create a birthday worth remembering with our special birthday cupcakes." %}</p>
                 </div>
             </div>
             <div class="box2">
                 <div class="about-text">
-                    <h2>{% trans "Wedding"%}</h2>
-                    <p>{% trans "Our wedding cupcakes will be sure to assist you in having the most special day of your life." %}</p>
+                    <h2 class="font-weight-bold text-secondary">{% trans "Wedding"%}</h2>
+                    <hr class="divider my-4" />
+                    <p class="font-weight-bold text-secondary">{% trans "Our wedding cupcakes will be sure to assist you in having the most special day of your life." %}</p>
                     </div>
             </div>
             <div class="box3">
                 <div class="about-text">
-                    <h2>{% trans "Holiday"%}</h2>
-                    <p>{% trans "Our holiday-themed cupcakes are sure to boost any occassion." %}</p>
+                    <h2 class="font-weight-bold text-secondary">{% trans "Holiday"%}</h2>
+                    <hr class="divider my-4" />
+                    <p class="font-weight-bold text-secondary">{% trans "Our holiday-themed cupcakes are sure to boost any occassion." %}</p>
                     </div>
             </div>
             
@@ -55,8 +59,8 @@
         <!-- Order-->
         <section class="page-section bg-dark text-white">
             <div class="container text-center">
-                <h2 class="mb-4">{% trans "Your Favourite Cupcake!" %}</h2>
-                <a class="btn btn-light btn-xl" href="order">{% trans "Order Now!" %}</a>
+                <h2 class="mb-4 font-weight-bold text-secondary"">{% trans "Your Favourite Cupcake!" %}</h2>
+                <a class="btn btn-primary btn-xl" href="order">{% trans "Order Now!" %}</a>
             </div>
         </section>
 
