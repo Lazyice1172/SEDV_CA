@@ -130,8 +130,9 @@ STATIC_URL = 'static/'
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
 LANGUAGES = (
-    ('fr', _('French')),
     ('en', _('English')),
+    ('fr', _('French')),
+    ('zh-hans', _('Simplified Chinese')),
 )
 
 LOCALE_PATHS = (

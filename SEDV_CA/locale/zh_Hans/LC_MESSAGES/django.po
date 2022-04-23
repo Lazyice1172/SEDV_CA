@@ -1,0 +1,246 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-04-22 20:40+0100\n"
+"PO-Revision-Date: 2022-04-22 20:58+0100\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: zh_CN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Poedit 3.0.1\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+
+#: .\CA\views.py:7
+msgid "Welcome to language translation!"
+msgstr "欢迎来到语言翻译！"
+
+#: .\SEDV_CA\settings.py:133
+msgid "English"
+msgstr "英语"
+
+#: .\SEDV_CA\settings.py:134
+msgid "French"
+msgstr "法语"
+
+#: .\SEDV_CA\settings.py:135
+msgid "Simplified Chinese"
+msgstr "简体中文"
+
+#: .\SEDV_CA\templates\about.html:8 .\SEDV_CA\templates\about.html:20
+#: .\SEDV_CA\templates\nav.html:16
+msgid "About"
+msgstr "关于"
+
+#: .\SEDV_CA\templates\about.html:24
+msgid ""
+"We are driven by loving what we do and what we make everyday. We get to use "
+"the finest ingredients to make what we believe are the tastiest treats "
+"around. And.. we love the idea that our treats are making people happy every "
+"time they bite into one. How much fun is that!"
+msgstr ""
+"我们被热爱我们所做的事情和我们每天所做的事情所驱使。 我们可以使用最好的原料来"
+"制作我们认为最美味的食物。 而且.. 我们喜欢我们的款待让人们每次咬一口都开心的"
+"想法。 那是多么有趣啊！"
+
+#: .\SEDV_CA\templates\about.html:25
+msgid "Find Out More"
+msgstr "找到更多"
+
+#: .\SEDV_CA\templates\about.html:36
+msgid "Birthday"
+msgstr "生日"
+
+#: .\SEDV_CA\templates\about.html:38
+msgid "Create a birthday worth remembering with our special birthday cupcakes."
+msgstr "用我们特别的生日纸杯蛋糕创造一个值得纪念的生日。"
+
+#: .\SEDV_CA\templates\about.html:43
+msgid "Wedding"
+msgstr "婚礼"
+
+#: .\SEDV_CA\templates\about.html:45
+msgid ""
+"Our wedding cupcakes will be sure to assist you in having the most special "
+"day of your life."
+msgstr "我们的婚礼纸杯蛋糕一定会帮助您度过一生中最特别的一天。"
+
+#: .\SEDV_CA\templates\about.html:50
+msgid "Holiday"
+msgstr "节假日"
+
+#: .\SEDV_CA\templates\about.html:52
+msgid "Our holiday-themed cupcakes are sure to boost any occassion."
+msgstr "我们以假日为主题的纸杯蛋糕一定会为任何场合增添光彩。"
+
+#: .\SEDV_CA\templates\about.html:62
+msgid "Your Favourite Cupcake!"
+msgstr "你最喜欢的纸杯蛋糕！"
+
+#: .\SEDV_CA\templates\about.html:63 .\SEDV_CA\templates\index.html:23
+#: .\SEDV_CA\templates\index.html:83
+msgid "Order Now!"
+msgstr "现在下单！"
+
+#: .\SEDV_CA\templates\cupcake.html:8
+msgid "Product Details"
+msgstr "产品详情"
+
+#: .\SEDV_CA\templates\cupcake.html:18
+msgid "Order Cupcake Online"
+msgstr "在线订购纸杯蛋糕"
+
+#: .\SEDV_CA\templates\cupcake.html:24 .\SEDV_CA\templates\order.html:25
+msgid "Fruit"
+msgstr "水果"
+
+#: .\SEDV_CA\templates\cupcake.html:25
+msgid ""
+"A cupcake classic! Double chocolate sponge covered in a smooth and decadent "
+"chocolate icing."
+msgstr "经典的纸杯蛋糕！ 双层巧克力海绵覆盖着光滑而颓废的巧克力糖衣。"
+
+#: .\SEDV_CA\templates\cupcake.html:26
+msgid "Contains: Milk, Eggs, Gluten"
+msgstr "包含：牛奶，鸡蛋，面筋"
+
+#: .\SEDV_CA\templates\cupcake.html:28
+msgid "Gift Box of 12 cupcakes"
+msgstr "12 个纸杯蛋糕礼盒"
+
+#: .\SEDV_CA\templates\cupcake.html:29
+msgid "Delivery cost: $10 per order"
+msgstr "运费：每单$10"
+
+#: .\SEDV_CA\templates\cupcake.html:35
+msgid "Add to Cart"
+msgstr "添加到购物车"
+
+#: .\SEDV_CA\templates\footer.html:12
+msgid "Contact Us!"
+msgstr "联系我们！"
+
+#: .\SEDV_CA\templates\index.html:18
+msgid "Easter Cupcake"
+msgstr "复活节蛋糕"
+
+#: .\SEDV_CA\templates\index.html:22
+msgid ""
+"Treat yourself with our new Easter cupcakes. Sweet and fragrant filled with "
+"seasonal fruits and berries!"
+msgstr "用我们的新复活节纸杯蛋糕犒劳自己。 甜美芬芳，充满时令水果和浆果！"
+
+#: .\SEDV_CA\templates\index.html:33
+msgid "Plan your events with us!"
+msgstr "与我们一起计划您的活动！"
+
+#: .\SEDV_CA\templates\index.html:35
+msgid ""
+"With years of experience baking and decorating cupcakes, we will ensure that "
+"your celebrations become special!"
+msgstr "凭借多年烘焙和装饰纸杯蛋糕的经验，我们将确保您的庆祝活动变得特别！"
+
+#: .\SEDV_CA\templates\index.html:36
+msgid "Get Quote"
+msgstr "获得报价"
+
+#: .\SEDV_CA\templates\index.html:45
+msgid "Need Inspiration?"
+msgstr "需要灵感吗？"
+
+#: .\SEDV_CA\templates\index.html:47
+msgid ""
+"We are ready to hear you out and provide you with lovely ideas. We love "
+"planning with our customers and making each and every event unique. Here are "
+"a couple bundles we offer!"
+msgstr ""
+"我们已准备好听取您的意见，并为您提供可爱的想法。 我们喜欢与客户一起计划，让每"
+"一个活动都独一无二。 这是我们提供的几个捆绑包！"
+
+#: .\SEDV_CA\templates\index.html:54
+msgid "Holidays"
+msgstr "节假日"
+
+#: .\SEDV_CA\templates\index.html:55
+msgid ""
+"Holiday rush? No need to worry! We remain open, providing you with delicious "
+"cupcakes when you need them most!"
+msgstr ""
+"假期匆忙？ 不用担心！ 我们保持开放，在您最需要的时候为您提供美味的纸杯蛋糕！"
+
+#: .\SEDV_CA\templates\index.html:56 .\SEDV_CA\templates\index.html:64
+#: .\SEDV_CA\templates\index.html:72
+msgid "View"
+msgstr "看法"
+
+#: .\SEDV_CA\templates\index.html:62
+msgid "Weddings"
+msgstr "婚礼"
+
+#: .\SEDV_CA\templates\index.html:63
+msgid ""
+"Why not choose us to cater your wedding with our adorable tux-and-dress "
+"cupcakes?"
+msgstr "为什么不选择我们用我们可爱的晚礼服和礼服纸杯蛋糕来满足您的婚礼？"
+
+#: .\SEDV_CA\templates\index.html:70
+msgid "Birthdays"
+msgstr "生日"
+
+#: .\SEDV_CA\templates\index.html:71
+msgid "Big or small, we are able to make any birthday feel spacial!"
+msgstr "无论大小，我们都能让任何生日都变得特别！"
+
+#: .\SEDV_CA\templates\index.html:82
+msgid "Looking for a treat?"
+msgstr "寻找款待？"
+
+#: .\SEDV_CA\templates\nav.html:17 .\SEDV_CA\templates\order.html:8
+msgid "Store"
+msgstr "店铺"
+
+#: .\SEDV_CA\templates\nav.html:18
+msgid "Contact"
+msgstr "接触"
+
+#: .\SEDV_CA\templates\order.html:18
+msgid "Flavours"
+msgstr "口味"
+
+#: .\SEDV_CA\templates\order.html:26 .\SEDV_CA\templates\order.html:31
+#: .\SEDV_CA\templates\order.html:36 .\SEDV_CA\templates\order.html:51
+#: .\SEDV_CA\templates\order.html:56 .\SEDV_CA\templates\order.html:61
+msgid "Price"
+msgstr "价格"
+
+#: .\SEDV_CA\templates\order.html:30
+msgid "Cream Cupcake"
+msgstr "奶油蛋糕"
+
+#: .\SEDV_CA\templates\order.html:35
+msgid "Chocolate"
+msgstr "巧克力"
+
+#: .\SEDV_CA\templates\order.html:43
+msgid "Package / Deals"
+msgstr "套餐/优惠"
+
+#: .\SEDV_CA\templates\order.html:50
+msgid "Mix and Match"
+msgstr "连连看"
+
+#: .\SEDV_CA\templates\order.html:55
+msgid "Event Package"
+msgstr "活动套餐"
+
+#: .\SEDV_CA\templates\order.html:60
+msgid "Gift Box"
+msgstr "礼物盒"
