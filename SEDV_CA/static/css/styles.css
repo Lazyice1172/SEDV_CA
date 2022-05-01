@@ -8067,6 +8067,14 @@ button.bg-dark:focus {
     max-width: 100% !important;
 }
 
+.mw-75 {
+    max-width: 75% !important;
+}
+
+.mw-50 {
+    max-width: 50% !important;
+}
+
 .mh-100 {
     max-height: 100% !important;
 }
@@ -8081,6 +8089,10 @@ button.bg-dark:focus {
 
 .min-vh-50 {
     min-height: 50vh !important;
+}
+
+.min-vh-40 {
+    min-height: 40vh !important;
 }
 
 .min-vh-15{
@@ -8376,6 +8388,11 @@ button.bg-dark:focus {
 .pb-5,
 .py-5 {
     padding-bottom: 3rem !important;
+}
+
+.pb-6,
+.py-6 {
+    padding-bottom: 6rem !important;
 }
 
 .pl-5,
@@ -10275,6 +10292,17 @@ hr.light {
     border-radius: 10rem;
 }
 
+.btn-l {
+    width: 4rem;
+	height: 4rem;
+	padding: 0.85rem;
+    font-size: 1.5rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    border: none;
+    border-radius: 10rem;
+}
+
 .page-section {
     padding: 8rem 0;
 }
@@ -10486,3 +10514,4 @@ header.masthead h1 {
 .white-bg-100{
     background-color: white;
 }
+
